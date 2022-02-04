@@ -29,7 +29,7 @@ async def start(client, message):
                 InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ],
             [
-                InlineKeyboardButton('owner', url=f"t.me/zinan00100)
+                InlineKeyboardButton('owner', url='https://t.me/zinan00100')
             ]
             
         reply_markup = InlineKeyboardMarkup(buttons)
