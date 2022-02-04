@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+EqhXLhL3T1w4Zjc1'),
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/moviespot001100'),
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/moviespot00100')
             ],[
             InlineKeyboardButton('💰 ᎮΛIᎠ ᎮᏒᎧᎷᎧϮIᎧИ 💰', callback_data='donation')
             ],[
@@ -53,7 +53,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
-        ]]  
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -89,8 +89,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+EqhXLhL3T1w4Zjc1'),
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/moviespot001100'),
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/moviespot00100')
             ],[
             InlineKeyboardButton('💰 ᎮΛIᎠ ᎮᏒᎧᎷᎧϮIᎧИ 💰', callback_data='donation')
             ],[
