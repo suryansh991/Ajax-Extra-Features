@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+EqhXLhL3T1w4Zjc1')
+                InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/moviespot001100')
             ],
             [
                 InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -46,8 +46,6 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/moviespot001100'),
             InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/moviespot00100')
-            ],[
-            InlineKeyboardButton('💰 ᎮΛIᎠ ᎮᏒᎧᎷᎧϮIᎧИ 💰', callback_data='donation')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -91,8 +89,6 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/moviespot001100'),
             InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/moviespot00100')
-            ],[
-            InlineKeyboardButton('💰 ᎮΛIᎠ ᎮᏒᎧᎷᎧϮIᎧИ 💰', callback_data='donation')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
